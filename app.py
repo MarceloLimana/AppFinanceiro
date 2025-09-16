@@ -6,6 +6,14 @@ import streamlit as st
 import plotly.express as px
 import datetime as dt
 
+# Função para carregar o CSS
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+# Chama a função para carregar o CSS
+load_css(".streamlit/style.css")
+
 # ---
 # 1. Configuração Inicial e Autenticação
 # ---
