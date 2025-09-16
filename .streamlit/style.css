@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Centraliza os títulos e subtítulos */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Remove o espaçamento padrão desnecessário em cima da página */
+.css-1y46jdu {
+    padding-top: 1rem;
+}
+
+/* Estilo para a barra lateral */
+.st-emotion-cache-1c7y2c1 {
+    padding: 1rem;
+    background-color: var(--secondaryBackgroundColor);
+}
+
+/* Estilo para o formulário */
+div[data-testid="stForm"] {
+    background-color: var(--secondaryBackgroundColor);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilo para os botões */
+div.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+div.stButton > button:hover {
+    filter: brightness(1.2);
+    transform: scale(1.02);
+}
+
+/* Estilo para gráficos Plotly */
+.plotly-graph-div {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Estilo para o uploader de arquivo */
+div[data-testid="stFileUploader"] {
+    border: 2px dashed var(--primaryColor);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
